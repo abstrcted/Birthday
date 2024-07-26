@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primo Wishlist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">INFO</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+    <div class="text-box">
+        <h1>Primo's 21st Birthday Party!</h1>
+        <p>Join us at the Federal Way Community Cener<br>to celebrate Primo's 21st Birthday!</p>
+        <a href="" class="hero-btn">RSVP</a>
+    </div>
+        
+        
+    </section>
+    
+    <!------------ campus ---------------->
+    
+   <section class="campus">
+    <h1>Information</h1>
+    <p>BLJSAKLFHKSDJ FSKJFNH SKJGDH SDKJGS DGK</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/london.png" alt="">
+            <div class="layer">
+                <h3>LOCATION</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/newyork.png" alt="">
+            <div class="layer">
+                <h3>WISHLIST</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/washington.png" alt="">
+            <div class="layer">
+                <h3>CONTACT</h3>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+    
+<!------JavaScript for Toggle Menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>   
+    
+    
+    
+</body>
+</html>
