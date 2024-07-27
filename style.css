@@ -174,7 +174,7 @@ h3{
     }
 }
 
-/*----------- campus ---------*/
+/*--------- campus ---------*/
 
 .campus {
     width: 80%;
@@ -228,3 +228,31 @@ h3{
     opacity: 1;
 }
 
+/*--------- location ---------*/
+
+.location{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.location img{
+    width: 100%;
+    display: block;
+}
+
+.location p{
+    font-size: 22px;
+}
+/*--------- contact ---------*/
+.contact{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px; 
+}
+
+.contact p{
+    font-size: 22px;
+}
