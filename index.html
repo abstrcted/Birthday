@@ -17,50 +17,73 @@
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
-                    <li><a href="">INFO</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="#info">INFO</a></li>
+                    <li><a href="#ctct">CONTACT</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         
     <div class="text-box">
-        <h1>Primo's 21st Birthday Party!</h1>
-        <p>Join us at the Federal Way Community Cener<br>to celebrate Primo's 21st Birthday!</p>
+        <h1>Primo's 21st Birthday Party</h1>
+        <p>Join us at the Federal Way Community Center<br>to celebrate Primo's 21st Birthday</p>
         <a href="https://forms.gle/RtjrgRkWK4eP7SYG6" class="hero-btn">RSVP</a>
     </div>
         
         
     </section>
     
-    <!------------ campus ---------------->
+    <!------------ campus --------------->
     
-   <section class="campus">
+   <section class="campus" id=info>
     <h1>Information</h1>
-    <p>BLJSAKLFHKSDJ FSKJFNH SKJGDH SDKJGS DGK</p>
+    <p></p>
     <div class="row">
         <div class="campus-col">
-            <img src="images/london.png" alt="">
-            <div class="layer">
-                <h3>LOCATION</h3>
-            </div>
+            <a href="#spot">
+                <img src="images/london.png" alt="">
+                <div class="layer">
+                    <h3>LOCATION</h3>
+                </div>
+            </a>
         </div>
         <div class="campus-col">
-            <img src="images/newyork.png" alt="">
-            <div class="layer">
-                <h3>WISHLIST</h3>
-            </div>
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3YOuovHcz662ytZOznwe3w5OyAIb-u3dsRw&s">
+                <img src="images/newyork.png" alt="">
+                <div class="layer">
+                    <h3>WISHLIST</h3>
+                </div>
+            </a>
         </div>
         <div class="campus-col">
-            <img src="images/washington.png" alt="">
-            <div class="layer">
+            <a href="#ctct">
+                <img src="images/washington.png" alt="">
+                <div class="layer">
                 <h3>CONTACT</h3>
-            </div>
+                </div>
+            </a>
         </div>
     </div>
 </section>
     
-
+<!------------ location --------------->
+    
+<section class="location" id=spot>
+    <h1>Location</h1>
+    <p>Federal Way Community Center<br>876 S 333rd St, Federal Way, WA 98003</p>
+    <div class="row">
+        <img src="images/CenterPlaceHold.jpg" alt="">
+    </div>
+</section>
+    
+ <!------------ campus --------------->
+    
+<section class="contact" id=ctct>
+    <h1>Contact</h1>
+    <p>Email: primitivobambao@Gmail.com<br>Phone: (253) 766 7760</p>
+    
+    
+</section>
     
 <!------JavaScript for Toggle Menu------->
 <script>
