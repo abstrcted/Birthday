@@ -264,6 +264,25 @@ h3 {
     font-size: 22px;
 }
 
+.map-iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.location .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* centers content on page */
+}
+
+@media (max-width: 700px) {
+    .map-iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
 .contact {
     width: 80%;
     margin: auto;
