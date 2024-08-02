@@ -1,6 +1,9 @@
-let numButtonClicks = 0;
-function buttonClicked() {
-    numButtonClicks = numButtonClicks + 1;
-    document.getElementById("mainDiv").textContent =
-        "Button Clicked times: " + numButtonClicks;
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+    navLinks.style.right = "0";
+}
+
+function hideMenu() {
+    navLinks.style.right = "-200px";
 }
