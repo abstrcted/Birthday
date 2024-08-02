@@ -12,7 +12,7 @@
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
@@ -24,78 +24,69 @@
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         
-    <div class="text-box">
-        <h1>Primo's Birthday Party</h1>
-        <p>Join us at the Federal Way Community Center<br>to celebrate Primo's 21st Birthday!</p>
-        <a href="https://forms.gle/RtjrgRkWK4eP7SYG6" class="hero-btn">RSVP</a>
-    </div>
-        
-        
+        <div class="text-box">
+            <h1>Primo's Birthday Party</h1>
+            <p>Join us at the Federal Way Community Center<br>to celebrate Primo's 21st Birthday!</p>
+            <a href="https://forms.gle/RtjrgRkWK4eP7SYG6" class="hero-btn">RSVP</a>
+        </div>
     </section>
     
-    <!------------ campus --------------->
-    
-   <section class="campus" id="info">
-    <h1>Information</h1>
-    <p></p>
-    <div class="row">
-        <div class="campus-col">
-            <a href="#spot">
-                <img src="images/london.png" alt="">
-                <div class="layer">
-                    <h3>LOCATION</h3>
-                </div>
-            </a>
+    <section class="campus" id="info">
+        <h1>Information</h1>
+        <p></p>
+        <div class="row">
+            <div class="campus-col">
+                <a href="#spot">
+                    <img src="images/london.png" alt="London">
+                    <div class="layer">
+                        <h3>LOCATION</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="campus-col">
+                <a href="https://docs.google.com/document/d/1yBIjViG5LQVZeLrsdiGrt5oxqZYA4BGGoW2aa_E49ds/edit?usp=sharing">
+                    <img src="images/newyork.png" alt="New York">
+                    <div class="layer">
+                        <h3>WISHLIST</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="campus-col">
+                <a href="#ctct">
+                    <img src="images/washington.png" alt="Washington">
+                    <div class="layer">
+                        <h3>CONTACT</h3>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="campus-col">
-            <a href="https://docs.google.com/document/d/1yBIjViG5LQVZeLrsdiGrt5oxqZYA4BGGoW2aa_E49ds/edit?usp=sharing">
-                <img src="images/newyork.png" alt="">
-                <div class="layer">
-                    <h3>WISHLIST</h3>
-                </div>
-            </a>
-        </div>
-        <div class="campus-col">
-            <a href="#ctct">
-                <img src="images/washington.png" alt="">
-                <div class="layer">
-                <h3>CONTACT</h3>
-                </div>
-            </a>
-        </div>
-    </div>
-</section>
+    </section>
     
-<!------------ location --------------->
-    
-<section class="location" id="spot">
-    <h1>Location</h1>
-    <p>Federal Way Community Center<br>876 S 333rd St, Federal Way, WA 98003<br><br>12:00pm - 4:30pm<br><br>Dress Code: Semi-formal</p>
-    <div class="row">
-        <p><iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10821.801202158444!2d-122.3230761!3d47.3055409
+    <section class="location" id="spot">
+        <h1>Location</h1>
+        <p>Federal Way Community Center<br>876 S 333rd St, Federal Way, WA 98003<br><br>12:00pm - 4:30pm<br><br>Dress Code: Semi-formal</p>
+        <div class="row">
+            <p><iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10821.801202158444!2d-122.3230761!3d47.3055409
                     !3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549057a1665af2ef%3A0x7dc0502109815c18!2sFederal%20Way%20Community%20Center!
                     5e0!3m2!1sen!2sus!4v1722278047517!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" 
                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
-    </div>
-</section>
+        </div>
+    </section>
     
- <!------------ contact --------------->
+    <section class="contact" id="ctct">
+        <h1>Contact</h1>
+        <p>Instagram: @lumikhaa<br>Phone: (253) 766 7760</p>
+    </section>
     
-<section class="contact" id="ctct">
-    <h1>Contact</h1>
-    <p>Instagram: @lumikhaa<br>Phone: (253) 766 7760</p>
-</section>
-    
-<!------JavaScript for Toggle Menu------->
-<script>
-    var navLinks = document.getElementById("navLinks");
-    
-    function showMenu(){
-        navLinks.style.right = "0";
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px";
-    }
-</script>   
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
